@@ -1,0 +1,27 @@
+# O diretório de trabalho contém pesquisa, bases e resultados históricos.
+# A lista abaixo publica somente o pacote de avaliação.
+*
+!.gitignore
+!.gitattributes
+!Dockerfile
+!README.md
+!ENTREGA_CHECKLIST.md
+!model-manifest.json
+!requirements-submission.txt
+!run.sh
+!executar_submissao_ensemble.py
+!json_to_submission.py
+!validar_saida.py
+!cacador/
+cacador/*
+!cacador/prever_ensemble_final.py
+!cacador/runtime_inferencia.py
+!cacador/resolver_especificacao_v2.py
+!cacador/filtros_estruturais.py
+!cacador/runtime_classifiers.py
+!modelos_finais/
+!modelos_finais/**
+!artefatos_finais/
+!artefatos_finais/**
+!tests/
+!tests/test_runtime_db.py

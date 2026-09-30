@@ -1,0 +1,59 @@
+{
+  "status": "full-data refit after OOF selection; no evaluation",
+  "base_model": "eduagarcia/RoBERTaLexPT-base",
+  "epochs": 5,
+  "seed": 20260930,
+  "selection": "E66 confirmatorio; 3/5 com digito, 4/5 sem digito; filtro estrutural E67 aplicado apenas no runtime",
+  "goldenset_sha256": "2e2567de4bc3229c0c3766d5c448974fce5a4ee8622de73429c915e09cb65c51",
+  "n_gold_spans": 192,
+  "n_documents": 26,
+  "lener_sha256": "ada13a733044bba28076fd0ecc9b314ade2ef19d9557b38e82b543334c32bb8a",
+  "ulysses_sha256": "9af563c9826961e16fb65a32e43783ec937fc400f9e1fd14cf21983866d27d8a",
+  "models": [
+    {
+      "name": "joint-ulysses",
+      "external": "ulysses",
+      "swap": false,
+      "boundary": false,
+      "threshold": 0.6,
+      "path": "joint-ulysses",
+      "n_train_docs_with_augment": 52
+    },
+    {
+      "name": "joint-both",
+      "external": "ambos",
+      "swap": false,
+      "boundary": false,
+      "threshold": 0.5,
+      "path": "joint-both",
+      "n_train_docs_with_augment": 52
+    },
+    {
+      "name": "joint-ulysses-swap",
+      "external": "ulysses",
+      "swap": true,
+      "boundary": false,
+      "threshold": 0.5,
+      "path": "joint-ulysses-swap",
+      "n_train_docs_with_augment": 78
+    },
+    {
+      "name": "joint-both-swap",
+      "external": "ambos",
+      "swap": true,
+      "boundary": false,
+      "threshold": 0.8,
+      "path": "joint-both-swap",
+      "n_train_docs_with_augment": 78
+    },
+    {
+      "name": "boundary-lener",
+      "external": "lener",
+      "swap": false,
+      "boundary": true,
+      "threshold": 0.8,
+      "path": "boundary-lener",
+      "n_train_docs_with_augment": 52
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "runtime_offline": true,
+  "weights_distribution": "repository_git_lfs",
+  "base_image": "pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime@sha256:77f17f843507062875ce8be2a6f76aa6aa3df7f9ef1e31d9d7432f4b0f563dee",
+  "production_weights": {
+    "status": "included_in_modelos_finais",
+    "selection": "E66/E67; 3/5 com digito, 4/5 sem digito; filtro estrutural E67",
+    "seed": 20260930,
+    "training_gold_sha256": "2e2567de4bc3229c0c3766d5c448974fce5a4ee8622de73429c915e09cb65c51",
+    "models_sha256_file": "modelos_finais/SHA256SUMS"
+  },
+  "base_model": {
+    "hf_id": "eduagarcia/RoBERTaLexPT-base",
+    "revision": "9dea30875c93dc2d33b35c2338dfc93c86715b9e"
+  }
+}

@@ -1,0 +1,5 @@
+torch==2.6.0
+transformers==4.48.3
+scikit-learn==1.9.0
+sentencepiece==0.2.0
+numpy==2.1.3

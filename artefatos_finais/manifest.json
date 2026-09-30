@@ -1,0 +1,12 @@
+{
+  "status": "full-data artifacts; no evaluation",
+  "goldenset_sha256": "2e2567de4bc3229c0c3766d5c448974fce5a4ee8622de73429c915e09cb65c51",
+  "n_docs": 26,
+  "n_formulas": 0,
+  "n_skeletons_support_ge_2": 8,
+  "files": {
+    "estrutural.json": "1d7026fb76c8f857a1addaca99756ec4b8ed20a0faeae09ce0d4001e3d341df5",
+    "type_classifier.joblib": "6e0cab3bb4bc8ca4381a29197c499abaa0f6d1ed06c717449331bed0f6e390d5",
+    "searchability_classifier.joblib": "d1bc450640d4097f2f69c18df4f9834b400a1ee60f173b1a347001289768f580"
+  }
+}

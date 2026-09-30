@@ -1,0 +1,118 @@
+{
+  "status": "fit on all development data after OOF selection",
+  "formula_exact": [],
+  "narrative_skeleton_min_support": 2,
+  "narrative_skeleton": [
+    {
+      "prefix": [
+        "acordao",
+        "do",
+        "<TRIB>",
+        "julgado",
+        "em",
+        "<YEAR>",
+        "sob",
+        "relatoria",
+        "de"
+      ],
+      "name_tokens": 2,
+      "support": 3
+    },
+    {
+      "prefix": [
+        "acordao",
+        "do",
+        "<TRIB>",
+        "julgado",
+        "em",
+        "<YEAR>",
+        "sob",
+        "relatoria",
+        "de"
+      ],
+      "name_tokens": 4,
+      "support": 2
+    },
+    {
+      "prefix": [
+        "julgado",
+        "do",
+        "<TRIB>",
+        "proferido",
+        "em",
+        "<YEAR>",
+        "pela",
+        "relatoria",
+        "de"
+      ],
+      "name_tokens": 2,
+      "support": 4
+    },
+    {
+      "prefix": [
+        "julgado",
+        "do",
+        "<TRIB>",
+        "proferido",
+        "em",
+        "<YEAR>",
+        "pela",
+        "relatoria",
+        "de"
+      ],
+      "name_tokens": 4,
+      "support": 3
+    },
+    {
+      "prefix": [
+        "precedente",
+        "do",
+        "<TRIB>",
+        "de",
+        "<YEAR>",
+        "da",
+        "relatoria",
+        "de"
+      ],
+      "name_tokens": 2,
+      "support": 5
+    },
+    {
+      "prefix": [
+        "rcl",
+        "de",
+        "<YEAR>",
+        "rel",
+        "min"
+      ],
+      "name_tokens": 2,
+      "support": 3
+    },
+    {
+      "prefix": [
+        "reclamacao",
+        "do",
+        "<TRIB>",
+        "de",
+        "<YEAR>",
+        "rel",
+        "min"
+      ],
+      "name_tokens": 2,
+      "support": 3
+    },
+    {
+      "prefix": [
+        "reclamacao",
+        "do",
+        "<TRIB>",
+        "de",
+        "<YEAR>",
+        "rel",
+        "min"
+      ],
+      "name_tokens": 3,
+      "support": 2
+    }
+  ]
+}

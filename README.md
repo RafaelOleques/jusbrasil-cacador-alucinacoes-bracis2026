@@ -59,7 +59,7 @@ python -m py_compile executar_submissao_ensemble.py json_to_submission.py \
 
 O teste de runtime confirma que IDs diferentes dos usados no desenvolvimento são lidos da base recebida.
 
-Em 30/09/2026, o pipeline atual foi executado de ponta a ponta sobre os 26 documentos da amostra, com os cinco pesos E67, os três artefatos finais, a imagem base fixada por digest e exatamente as versões de `requirements-submission.txt`. A execução de verificação usou `--permitir-cpu` porque a cota de GPU do cluster estava ocupada; o modo oficial continua exigindo CUDA por padrão. Resultado: 26 JSONs válidos, CSV com 26 documentos, 37 segundos de inferência e SHA-256 do CSV `cbf970b2eceab1698f00f96067648044b24fbdf3019ebd0b840966e45900a68f`.
+Em 01/10/2026, o commit `66ff81baff6b7f2aa9fb8cc05c8c42f5620bb44d` foi clonado diretamente do repositório público (não de uma cópia local) e executado via `bash run.sh` em GPU (NVIDIA RTX 4000 Ada, CUDA), com a base `desafio1_bracis.db` distribuída pela organização. Resultado: 26 JSONs válidos, CSV com 26 documentos, 10 segundos de inferência, SHA-256 do CSV `6afa4f857fccfd0ccd212ede1c761696a763b3169192f970900976c672ba1085`. Essa saída, avaliada localmente com `kaggle_metric.py` contra `goldenset.csv`, obtém score 1,0780 (nível 1: 1,0559; nível 2: 1,0891) — número de desenvolvimento, não o da avaliação oficial, que roda sobre documentos e base inéditos.
 
 ## Saída
 
